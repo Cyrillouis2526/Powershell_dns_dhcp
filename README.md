@@ -40,3 +40,21 @@ Deux serveurs DHCP peuvent coexister sur le même réseau. Le risque dépend de 
 
 Question3:
 Get-DhcpServerv4Lease -ComputerName "NomDuServeurDHCP" -ScopeId 192.168.1.0
+
+
+Remote Control:
+Installation du role et redemarrage de la machine. 
+![alt text](image-8.png)
+Maintenant on Déployer le serveur RDS avec ces différentes options.
+![alt text](image-9.png)
+à la suite de l'installation, nous allons déclarez notre serveur comme étant un serveur de licence RDS.
+![alt text](image-10.png)
+![alt text](image-13.png)
+Maintenant nous pouvons faire une collection de sessions pour notre serveur RDS.
+![alt text](image-14.png)
+on peux publier des apps via le portail du remote access.
+![alt text](image-15.png)
+Une fois les applications faite nous devons mettre en place les certificats
+![alt text](image-17.png)
+Maintenant allons vérifier si cela fonctionne
+![alt text](image-16.png)
